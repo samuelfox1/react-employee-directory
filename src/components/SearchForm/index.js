@@ -7,8 +7,8 @@ export default function searchForm(props) {
     return (
         <form className="col d-flex">
             <input className="form-control me-2"
-                value={props.searchEmployee}
-                name="searchEmployee"
+                value={props.search}
+                name="search"
                 type="search"
                 onChange={props.handleInputChange}
                 placeholder="Search Employee"

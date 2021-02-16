@@ -1,12 +1,12 @@
 import React from "react";
 import Nav from "./components/Nav";
-import EmployeesTable from "./components/EmployeesTable"
+import EmployeeTable from "./components/EmployeeTableData"
 
 export default function App() {
   return (
     <div>
       <Nav />
-      <EmployeesTable />
+      <EmployeeTable />
     </div>
   );
 }

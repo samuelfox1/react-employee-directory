@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./style.css";
 
 
-export default function employeeRow({ props }) {
+export default function employeeRow({ props, idx }) {
     let first = props.name.first
     let last = props.name.last
     let phone = props.cell
@@ -10,7 +10,11 @@ export default function employeeRow({ props }) {
     let dob = props.dob.date
     // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
-        <div className="row row-cols-5 employeeTable">
+        <div className="row row-cols-5 employeeTableData">
+
+            <div className="col col-sm-1">
+                <p>{idx}</p>
+            </div>
 
             <div className="col col-sm-2">
                 <img src={props.picture.thumbnail} alt={`${first} ${last}`} />
@@ -24,15 +28,13 @@ export default function employeeRow({ props }) {
                 <p>{phone}</p>
             </div>
 
-            <div className="col col-sm-4 overflow-auto">
+            <div className="col col-sm-5 overflow-auto">
                 <p>{email}</p>
-            </div>
-
-            <div className="col col-sm-2">
-                {/* <p>{dob}</p> */}
             </div>
         </div>
 
     );
 }
+
+
 

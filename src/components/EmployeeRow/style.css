@@ -1,4 +1,13 @@
-.email{
-    /* display: block; */
-    /* text-overflow: ellipsis; */
+.employeeTable{
+    text-align: center;
+    border: 1px black solid;
+    align-items: center;
+}
+
+.odd {
+    background-color: rgba(165, 42, 42, 0.164);
+}
+
+.even {
+    background-color: rgba(165, 42, 42, 0.301);
 }

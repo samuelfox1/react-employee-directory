@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import uuid, { v4 } from "uuid";
+import { v4 } from "uuid";
 import API from "../../utils/API";
 import SearchForm from "../SearchForm"
 import EmployeeTableTop from "../EmployeeTableTop"
 import EmployeeRow from "../EmployeeRow"
 import "./style.css";
 
-export default class EmployeeTableData extends Component {
+export default class employeeTable extends Component {
     state = {
         search: '',
         results: [],
@@ -78,7 +78,7 @@ export default class EmployeeTableData extends Component {
                     />
                     {/* </div> */}
                 </div>
-                <div className="container">
+                <div className="container employeeTable">
                     <EmployeeTableTop
                         reverseAlpha={this.reverseAlpha}
                     />

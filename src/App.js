@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./components/Nav";
-import EmployeeTable from "./components/EmployeeTableData"
+import EmployeeTable from "./components/EmployeeTable"
 
 export default function App() {
   return (

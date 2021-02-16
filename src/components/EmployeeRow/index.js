@@ -8,9 +8,12 @@ export default function employeeRow({ props, idx }) {
     let phone = props.cell
     let email = props.email
     let dob = props.dob.date
+    let style = "odd"
+
+    if (idx % 2 === 0) { style = 'even' }
     // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
-        <div className="row row-cols-5 employeeTableData">
+        <div className={`row row-cols-5 employeeTable ${style}`}>
 
             <div className="col col-sm-1">
                 <p>{idx}</p>

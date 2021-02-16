@@ -25,8 +25,11 @@ export default class employeeTable extends Component {
         let x = this.state.search.toLocaleLowerCase()
 
         const filtered = this.state.results.filter(y => {
-            y = y.name.first.toLocaleLowerCase()
-            if (y.includes(x)) { return y }
+            let first = y.name.first.toLocaleLowerCase()
+            let last = y.name.last.toLocaleLowerCase()
+            let full = `${first} ${last}`
+
+            if (first.includes(x) || last.includes(x) || full.includes(x)) { return y }
         })
 
         this.setState({ displayed: filtered })

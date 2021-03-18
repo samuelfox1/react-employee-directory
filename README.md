@@ -1,55 +1,106 @@
-# Unit 19 React Homework: Employee Directory
 
-## Overview
+# react-employee-directory
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+>## Description 
 
-## User Story
+* An employee directory build using React.js and Axios for API calls.
+* #### Story
+    * AS AN: Employer,
+    * I WANT: To be able to view my entire employee directory at once.
+    * SO THAT: I have quick access to their information.
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+<br>
 
-## Business Context
+>## Table of Contents
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+* [Contributing](#Contributing)
+* [Description](#Description)
+* [Installation](#Installation)
+* [License](#License)
+* [Questions](#Questions)
+* [Story](#Story)
+* [Testing](#Testing)
+* [Usage](#Usage)
+<br>
 
-## Acceptance Criteria
+[![license](https://img.shields.io/badge/License-MIT-blue)](#License)
+<br>
 
-Given a table of random users generated from the [Random User API](https://randomuser.me/), when the user loads the page, a table of employees should render. 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://www.contributor-covenant.org/)
+<br>
 
-The user should be able to:
+![npm](https://img.shields.io/badge/-npm-CB3837?logo=NPM)![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)![VS Code](https://img.shields.io/badge/-VS%20Code-4D4D4D?logo=Visual%20Studio%20Code&logoColor=007ACC)![html](https://img.shields.io/badge/-HTML5-blue?logo=html5)![css](https://img.shields.io/badge/-CSS3-red?logo=css3)![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=Bootstrap&logoColor=white)![javascript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)![node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)![Express.js](https://img.shields.io/badge/-Express.js-000000?logo=JavaScript&logoColor=yellow)![ReactJS](https://img.shields.io/badge/-React.js-000000?logo=React&logoColor=61DAFB)
 
-  * Sort the table by at least one category
 
-  * Filter the users by at least one property.
 
-## Commit Early and Often
+>## Product
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+* [Check it out!](https://sjf-react-employee-directory.herokuapp.com/) 
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+![Screenshot](./public/assets/images/screenshot.png)
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+<br>
 
-Follow these guidelines for committing:
+>## Installation
 
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+1. Install node.js
+2. Clone repo
+3. Navigate to root folder and run npm i
+4. run npm start 
+5. substitute Axios call for Employee Data and Deploy
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+<br>
 
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
+>## Usage
 
-* Test your application before you commit to ensure functionality at every step in the development process
+1. 
+2. 
+3. 
+4. 
+5. 
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+<br>
 
-* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
+>## Contributing
 
-* **Important**: Be sure to push your codebase to GitHub and **NOT** your built and deployed code. Ensure this happens by following the above instructions and using the `gh-pages` branch to host the deployed application's code.
+* [Submit bugs and feature requests](https://github.com/samuelfox1/react-employee-directory/issues)
+* [Review changes](https://github.com/samuelfox1/react-employee-directory/pulls)
+* [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/)
 
-## Submission on BCS
+<br>
 
-You are required to submit the following:
+>## Testing
 
-* the URL to the deployed application
+* 
 
-* the URL to the Github repository
+<br>
+
+>## Questions
+
+| Name | Email  | Github  | LinkedIn |
+| :--: | :----: | :-----: | :------: |
+| Samuel Fox | samueljasonfox@gmail.com | [![Github](./public/assets/images/logo/github.png)](https://github.com/samuelfox1) | [![LinkedIn](./public/assets/images/logo/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) |
+
+<br>
+
+>## License
+
+MIT License
+
+Copyright 2021 Samuel Fox
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+<br>
+
+The images found in 'assets/images/logo/' are trademarks of their respective companies and are under their terms and license.
+<br>
+
+2021
+<br>
+
+>## [Top of page](#react-employee-directory)

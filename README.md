@@ -45,19 +45,10 @@
 
 1. Install node.js
 2. Clone repo
-3. Navigate to root folder and run npm i
-4. run npm start 
-5. substitute Axios call for Employee Data and Deploy
-
-<br>
-
->## Usage
-
-1. 
-2. 
-3. 
-4. 
-5. 
+3. Navigate to root folder and run `npm i` to install dependencies.
+4. Run `npm start` to launch react app locally.
+5. Substitute Axios call for Employee Data.
+6. Deploy using Heroku or other preferred method.
 
 <br>
 
@@ -69,11 +60,6 @@
 
 <br>
 
->## Testing
-
-* 
-
-<br>
 
 >## Questions
 

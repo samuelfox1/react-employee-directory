@@ -3,7 +3,7 @@
 
 >## Description 
 
-* An employee directory build using React.js and Axios for API calls.
+* An employee directory built using React.js and Axios for API calls.
 * #### Story
     * AS AN: Employer,
     * I WANT: To be able to view my entire employee directory at once.
